@@ -1,0 +1,13 @@
+{
+    "physicalMemory": [{
+        "serialNumber": "04665964",
+        "ecc": "ecc_disabled",
+        "partNumber": "HMA81GS6CJR8N-VK",
+        "slot": "BANK 0/ChannelA-DIMM0",
+        "type": "DDR4",
+        "speed": "2667 MHz",
+        "manufacturer": "SK Hynix",
+        "sizeBytes": 8589934592,
+        "status": "ok"
+    }]
+}

@@ -1,0 +1,16 @@
+Creating client connection
+Client Connection Success
+info <nil>
+Event found of type *types.TaskEvent
+Event found of type &{DynamicData:{} Key:971017 ChainId:971017 CreatedTime:2020-12-22 05:29:05.110999 +0000 UTC UserName:VCENTER.LOCAL\Administrator Datacenter:0xc000292480 ComputeResource:0xc0002924e0 Host:0xc000292540 Vm:0xc0002925a0 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Task: Relocate virtual machine ChangeTag:}
+Full message body Task: Relocate virtual machine
+Host Name 10.4.129.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.4.129.13} Host:HostSystem:host-137}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Windows Server (1)} Vm:VirtualMachine:vm-142}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Test_Datacenter} Datacenter:Datacenter:datacenter-9}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:New Cluster} ComputeResource:ClusterComputeResource:domain-c161}
+info <nil>
+Event found of type *types.EventEx
+Event found of type &{DynamicData:{} Key:970987 ChainId:970987 CreatedTime:2020-12-22 05:18:53.604999 +0000 UTC UserName: Datacenter:0xc0002926f0 ComputeResource:0xc000292750 Host:<nil> Vm:<nil> Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:vSAN datastore vsanDatastore in cluster New Cluster in datacenter Test_Datacenter does not have capacity ChangeTag:}
+Full message body vSAN datastore vsanDatastore in cluster New Cluster in datacenter Test_Datacenter does not have capacity

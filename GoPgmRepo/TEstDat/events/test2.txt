@@ -1,0 +1,108 @@
+Creating client connection
+Client Connection Success
+info <nil>
+Event found of type *types.UserLogoutSessionEvent
+Event found of type &{DynamicData:{} Key:25285663 ChainId:25285663 CreatedTime:2020-12-11 09:09:21.939667 +0000 UTC UserName:root Datacenter:0xc0001bb8f0 ComputeResource:0xc0001bb950 Host:0xc0001bb9b0 Vm:<nil> Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:User root@127.0.0.1 logged out (login time: Friday, December 11, 2020 9:07:48 AM, number of API invocations: 0, user agent: ) ChangeTag:}
+Full message body User root@127.0.0.1 logged out (login time: Friday, December 11, 2020 9:07:48 AM, number of API invocations: 0, user agent: )
+Host Name 10.2.40.14
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.14} Host:HostSystem:host-28}
+Vm <nil>
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.AlarmStatusChangedEvent
+Event found of type &{DynamicData:{} Key:25285661 ChainId:25285661 CreatedTime:2020-12-11 09:09:29.690999 +0000 UTC UserName: Datacenter:0xc0001bba40 ComputeResource:0xc0001bbaa0 Host:0xc0001bbb00 Vm:0xc0001bbb60 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Alarm 'Virtual machine CPU usage' on Win7-64 changed from Green to Yellow ChangeTag:}
+Full message body Alarm 'Virtual machine CPU usage' on Win7-64 changed from Green to Yellow
+Host Name 10.2.40.9
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.9} Host:HostSystem:host-195}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Win7-64} Vm:VirtualMachine:vm-9892}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-INFRA} ComputeResource:ClusterComputeResource:domain-c241}
+info <nil>
+Event found of type *types.VmRemoteConsoleDisconnectedEvent
+Event found of type &{DynamicData:{} Key:25285659 ChainId:25285659 CreatedTime:2020-12-11 09:09:26.248999 +0000 UTC UserName:DTITSUPPORT247\ajayd Datacenter:0xc0001bbc80 ComputeResource:0xc0001bbce0 Host:0xc0001bbd40 Vm:0xc0001bbda0 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Remote console disconnected from Win 8-64 Bit on host 10.2.40.13 ChangeTag:}
+Full message body Remote console disconnected from Win 8-64 Bit on host 10.2.40.13
+Host Name 10.2.40.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.13} Host:HostSystem:host-1626}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Win 8-64 Bit} Vm:VirtualMachine:vm-10751}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.AlarmStatusChangedEvent
+Event found of type &{DynamicData:{} Key:25285658 ChainId:25285658 CreatedTime:2020-12-11 09:09:22.658 +0000 UTC UserName: Datacenter:0xc0001bbe30 ComputeResource:0xc0001bbe90 Host:0xc0001bbef0 Vm:0xc0001bbf50 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Alarm 'Virtual machine CPU usage' on PR-Win7-32-1 changed from Green to Yellow ChangeTag:}
+Full message body Alarm 'Virtual machine CPU usage' on PR-Win7-32-1 changed from Green to Yellow
+Host Name 10.2.40.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.13} Host:HostSystem:host-1626}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:PR-Win7-32-1} Vm:VirtualMachine:vm-4526}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.AlarmStatusChangedEvent
+Event found of type &{DynamicData:{} Key:25285657 ChainId:25285657 CreatedTime:2020-12-11 09:09:22.62 +0000 UTC UserName: Datacenter:0xc0002da090 ComputeResource:0xc0002da0f0 Host:0xc0002da150 Vm:0xc0002da1b0 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Alarm 'Virtual machine CPU usage' on DT-W2K12-64-3 changed from Green to Yellow ChangeTag:}
+Full message body Alarm 'Virtual machine CPU usage' on DT-W2K12-64-3 changed from Green to Yellow
+Host Name 10.2.40.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.13} Host:HostSystem:host-1626}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:DT-W2K12-64-3} Vm:VirtualMachine:vm-4491}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.EventEx
+Event found of type &{DynamicData:{} Key:25285653 ChainId:25285653 CreatedTime:2020-12-11 09:09:12.830999 +0000 UTC UserName: Datacenter:0xc0002da300 ComputeResource:0xc0002da360 Host:0xc0002da3c0 Vm:0xc0002da420 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Virtual machine Win 8-64 Bit in cluster QE-TestAgent in Mumbai is vSphere HA Protected and HA will attempt to restart it after a failure. ChangeTag:}
+Full message body Virtual machine Win 8-64 Bit in cluster QE-TestAgent in Mumbai is vSphere HA Protected and HA will attempt to restart it after a failure.
+Host Name 10.2.40.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.13} Host:HostSystem:host-1626}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Win 8-64 Bit} Vm:VirtualMachine:vm-10751}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.DrsVmPoweredOnEvent
+Event found of type &{DynamicData:{} Key:25285649 ChainId:25285645 CreatedTime:2020-12-11 09:09:05.346 +0000 UTC UserName:DTITSUPPORT247\ajayd Datacenter:0xc0002da4b0 ComputeResource:0xc0002da510 Host:0xc0002da570 Vm:0xc0002da5d0 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:DRS powered On Win 8-64 Bit on 10.2.40.13 in Mumbai ChangeTag:}
+Full message body DRS powered On Win 8-64 Bit on 10.2.40.13 in Mumbai
+Host Name 10.2.40.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.13} Host:HostSystem:host-1626}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Win 8-64 Bit} Vm:VirtualMachine:vm-10751}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.VmMessageEvent
+Event found of type &{DynamicData:{} Key:25285648 ChainId:25285648 CreatedTime:2020-12-11 09:09:04.493 +0000 UTC UserName:vpxuser Datacenter:0xc0002da660 ComputeResource:0xc0002da6c0 Host:0xc0002da720 Vm:0xc0002da780 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Message on Win 8-64 Bit on 10.2.40.13 in Mumbai: Install the VMware Tools package inside this virtual machine. After the guest operating system starts, select VM > Install VMware Tools… and follow the instructions.
+ ChangeTag:}
+Full message body Message on Win 8-64 Bit on 10.2.40.13 in Mumbai: Install the VMware Tools package inside this virtual machine. After the guest operating system starts, select VM > Install VMware Tools… and follow the instructions.
+
+Host Name 10.2.40.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.13} Host:HostSystem:host-1626}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Win 8-64 Bit} Vm:VirtualMachine:vm-10751}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.VmStartingEvent
+Event found of type &{DynamicData:{} Key:25285646 ChainId:25285645 CreatedTime:2020-12-11 09:09:03.245 +0000 UTC UserName:DTITSUPPORT247\ajayd Datacenter:0xc0002da930 ComputeResource:0xc0002da990 Host:0xc0002da9f0 Vm:0xc0002daa50 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Win 8-64 Bit on host 10.2.40.13 in Mumbai is starting ChangeTag:}
+Full message body Win 8-64 Bit on host 10.2.40.13 in Mumbai is starting
+Host Name 10.2.40.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.13} Host:HostSystem:host-1626}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Win 8-64 Bit} Vm:VirtualMachine:vm-10751}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.TaskEvent
+Event found of type &{DynamicData:{} Key:25285645 ChainId:25285645 CreatedTime:2020-12-11 09:09:02.984 +0000 UTC UserName: Datacenter:0xc0002daae0 ComputeResource:0xc0002dab40 Host:0xc0002daba0 Vm:0xc0002dac00 Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Task: Power On virtual machine ChangeTag:}
+Full message body Task: Power On virtual machine
+Host Name 10.2.40.13
+Host Name &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:10.2.40.13} Host:HostSystem:host-1626}
+Vm &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Win 8-64 Bit} Vm:VirtualMachine:vm-10751}
+DynamicData {}
+Datacenter &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:Mumbai} Datacenter:Datacenter:datacenter-21}
+ComputeResource &{EntityEventArgument:{EventArgument:{DynamicData:{}} Name:QE-TestAgent} ComputeResource:ClusterComputeResource:domain-c1632}
+info <nil>
+Event found of type *types.TaskEvent
+Event found of type &{DynamicData:{} Key:25285644 ChainId:25285644 CreatedTime:2020-12-11 09:09:02.694 +0000 UTC UserName:DTITSUPPORT247\ajayd Datacenter:0xc0002dad50 ComputeResource:<nil> Host:<nil> Vm:<nil> Ds:<nil> Net:<nil> Dvs:<nil> FullFormattedMessage:Task: Initialize powering On ChangeTag:}
+Full message body Task: Initialize powering On
